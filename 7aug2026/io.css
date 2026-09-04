@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo i {
+    font-size: 40px;
+    color: #000;
+}
+
+.elements {
+    display: flex;
+    gap: 40px;
+}
+
+.elements a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-transform: capitalize;
+    transition: color 0.3s;
+}
+
+.elements a:hover {
+    color: #0077ff;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.icons a:hover {
+    color: #0077ff;
+}

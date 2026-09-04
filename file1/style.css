@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly ;
+    /* gap: 20px; */
+    .fruits{
+        display : flex;
+        flex-direction: column;
+        gap: 5px;
+        border: 10px solid blue;
+        width: fit-content;
+        padding: 30px;
+        list-style: none;
+        border-radius: 20px;
+        background-color: lightblue;
+
+        li{
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+
+    }
+    .vegetables{
+        border: 10px solid red;
+        gap: 5px;
+        width: fit-content;
+        background-color: lightblue;
+        padding: 30px;
+        list-style: none;
+        border-radius: 20px;
+
+        li{
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+        
+    }
+
+}

@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    .nav{
+        display: flex;
+        gap: 10px;
+        border: 1px solid black;
+        align-items: center;
+        height: 80px;
+        border: 1px solid black;
+
+
+        li{
+            list-style: none;
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px 0px;
+            width: 150px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+        }
+
+        #about{
+            font-size: 10px;
+            width: 100px;
+            position: absolute;
+            top: center;
+            top: 400px;
+            left: 45px;
+
+
+
+            background-color: orange;
+
+        }
+
+
+    }
+}

@@ -1,0 +1,6 @@
+As soon as give position realtive, there is no changes.
+here position relative is given to the element to move from its original position by providing the top, right, bottom, left. 
+The element is not removed from the flow.
+WE use position relative for minor changes.
+
+Position Absolute:
