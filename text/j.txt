@@ -1,0 +1,14 @@
+
+SettimeOut(cl,timer)
+-->set timeout is method or the function
+-->set timeout is here the program will be execute -->only once at even time period
+note:- timer is in even in milli second
+ex:- 1 sec = 1000 ms
+     5 sec = 5 x 1000 = 5000 ms
+
+
+Time Interval:- 
+Syntax :- Setinterval(cb,time)
+
+here program will execute again and again at given time period
+
